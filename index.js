@@ -1,8 +1,8 @@
 /* 
 
-   Contact: https://wa.me/2347036214381
-   Telegram: https://t.me/Ednut_x    
-   Developer : https://wa.me/2348102487241
+   Contact: https://wa.me/917439382677
+   Telegram: https://t.me/sreejan_xd    
+   Developer : https://wa.me/917439382677
   
 */
 
@@ -90,10 +90,10 @@ async function startingBot() {
       const msg = await store.loadMessage(key.remoteJid, key.id, undefined)
       return msg?.message || undefined
     }
-    return { conversation: 'Arch Md (By Ednut)' }
+    return { conversation: 'Sreejan Md (By Sreejan)' }
   } catch (error) {
     console.error('Error loading message:', error)
-    return { conversation: 'Arch Md (By Ednut)' }
+    return { conversation: 'Sreejan Md (By Sreejan)' }
   }
 }
 })
@@ -102,7 +102,7 @@ async function startingBot() {
 	
 		if (pairingCode && !ednut.authState.creds.registered) {
 		let phoneNumber;
-	    phoneNumber = await question(chalk.black(chalk.red.bold("\n Arch Md ²⁵\n"), chalk.white.bold("© 𝓔𝓭𝓷𝓾𝓽\n"), chalk.magenta.italic(`\n# input your WhatsApp number ,\nintl Format Number 234xx\n`)))
+	    phoneNumber = await question(chalk.black(chalk.red.bold("\n Sreejan Md\n"), chalk.white.bold("𝐒𝐫𝐞𝐞𝐣𝐚𝐧\n"), chalk.magenta.italic(`\n# input your WhatsApp number ,\nintl Format Number 234xx\n`)))
 			phoneNumber = phoneNumber.replace(/[^0-9]/g, '')
 		
 			let code = await ednut.requestPairingCode(phoneNumber);
@@ -153,7 +153,7 @@ ednut.end(`Unknown DisconnectReason : ${reason}|${connection}`)
 			}
 		}
 		if (connection == 'open' && global.startup) {
-ednut.sendMessage(ednut.user.id.split(":")[0] + "@s.whatsapp.net", {text:`\`\`\`Arch Md connected successfully\`\`\`\n\n\`\`\`prefix:-  ${global.prefix}\`\`\`\n\n\`\`\`channel :- https://whatsapp.com/channel/0029VamspnPB4hdUnvLaIX17 \n\nsupport :- https://chat.whatsapp.com/GmHOFOqQsM8A160ZCjcVnb \n\nnote if bot doesn't respond kindly restart from host don't forget to follow up for latest update on arch Md thanks for using 👋 Regards\n𝓔𝓭𝓷𝓾𝓽\`\`\``})
+ednut.sendMessage(ednut.user.id.split(":")[0] + "@s.whatsapp.net", {text:`\`\`\`Sreejan Md connected successfully\`\`\`\n\n\`\`\`prefix:-  ${global.prefix}\`\`\`\n\n\`\`\`channel :- https://whatsapp.com/channel/0029VamspnPB4hdUnvLaIX17 \n\nsupport :- https://chat.whatsapp.com/GmHOFOqQsM8A160ZCjcVnb \n\nnote if bot doesn't respond kindly restart from host don't forget to follow up for latest update on arch Md thanks for using 👋 Regards\n𝓔𝓭𝓷𝓾𝓽\`\`\``})
 console.log(chalk.magenta.italic(`Arch Md successfully connected ✓\n`))
 		} else if (receivedPendingNotifications == 'true') {
 			console.log('Please wait About 1 Minute...')
