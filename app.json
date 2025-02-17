@@ -1,7 +1,7 @@
 {
-  "name": "Arch Md",
+  "name": "Sreejan Md",
   "description": "A multi device functional bot",
-  "logo": "https://files.catbox.moe/ppo9qv.jpg",
+  "logo": "https://cdn.ironman.my.id/i/cdcil5.jpg",
   "keywords": ["Wabot", "WhatsApp", "nodejs"],
   "success_url": "/",
   "stack": "heroku-24",
@@ -17,12 +17,12 @@
     },
     "OWNER_NAME": {
       "description": "put your bot owner nane here",
-      "value": "Ednut",
+      "value": "𝐒𝐫𝐞𝐞𝐣𝐚𝐧",
       "required": false
     },
     "TIME_ZONE": {
       "description": "set your desired timezone continuent follow by your city mistake might cause error in console",
-      "value": "Africa/Lagos",
+      "value": "India/Kolkata",
       "required": false
     },
     "MENU_TYPE": {
@@ -37,7 +37,7 @@
     },
     "OWNER_NUMBER": {
       "description": "The phone numbers of the users who you want to be admin for the bot (should be in international format without + \",\").",
-      "value": "2347036214381"
+      "value": "917439382677"
     },
     "ONLYGC_MSG": {
       "description": "set your desired message when the bot mode is set to only group",
